@@ -11,13 +11,13 @@ This aims to help the use some features like:
 Tested on an Arduino Leonardo board.
 
 Installation and usage
-=============
+______________________
 
 To install it, you just have to copy this to your libraries directory.
 
 To use this in your sketch you have to add these lines:
-    #include <Wire.h>
-    #include <tmp102.h>
+    \#include <Wire.h>
+    \#include <tmp102.h>
 
 To start using the tmp102 class you can copy these lines:
   
