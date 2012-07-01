@@ -16,6 +16,7 @@ ______________________
 To install it, you just have to copy this to your libraries directory.
 
 To use this in your sketch you have to add these lines:
+    
     \#include \<Wire.h\>
     \#include \<tmp102.h\>
 
