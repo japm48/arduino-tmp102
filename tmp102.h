@@ -12,7 +12,7 @@
 #endif
 
 
-//The fields must appear inverted.
+//The fields must appear in reverse order.
 typedef struct {
   //LSB
   byte reserved     : 4;
@@ -39,13 +39,13 @@ class tmp102 {
     ~tmp102();
     
     void init(byte address, bool loadconf = false);
-    bool readTemp(int &iRead); //El valor devuelto hay que dividirlo entre 16.
+    bool readTemp(int &iRead); //The returned value must be divided by 16.
     
     bool readConf();
     bool writeConf(Tmp102ConfFormat conf);
     void getConf(Tmp102ConfFormat &conf);
     
-    bool getTLimit(bool T_high, int & data);
+    bool getTLimit(bool T_high, int & data); //The returned value must be divided by 16.
     bool setTLimit(bool T_high, int data);
     
     static int translateFromTmpFormat(int16_t tmp_f, bool ext13);
