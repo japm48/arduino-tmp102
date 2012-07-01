@@ -11,7 +11,7 @@ This aims to help the use some features like:
 Tested on an Arduino Leonardo board.
 
 Installation and usage
-______________________
+----------------------
 
 To install it, you just have to copy this to your libraries directory.
 
