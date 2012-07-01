@@ -16,21 +16,21 @@ Installation and usage
 To install it, you just have to copy this to your libraries directory.
 
 To use this in your sketch you have to add these lines:
-  #include <Wire.h>
-  #include <tmp102.h>
+    #include <Wire.h>
+    #include <tmp102.h>
 
 To start using the tmp102 class you can copy these lines:
   
-  tmp102 TMP102(&Wire);
-  
-  //This assumes you have ADD0 tied to GND. If you want other address, consult the datasheet.
-  const byte TMP102_ADDRESS = 0x90;
-  
-  void setup()
-  {
-    // ...
-    TMP102.init(TMP102_ADDRESS);
-    // ...
-  }
+    tmp102 TMP102(&Wire);
+    
+    //This assumes you have ADD0 tied to GND. If you want other address, consult the datasheet.
+    const byte TMP102_ADDRESS = 0x90;
+    
+    void setup()
+    {
+      // ...
+      TMP102.init(TMP102_ADDRESS);
+      // ...
+    }
   
   
