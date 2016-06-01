@@ -18,7 +18,7 @@ typedef struct {
   byte reserved     : 4;
   bool extended13   : 1;
   bool alert        : 1;
-  bool conver_rate  : 2;
+  byte conver_rate  : 2;
   
   //MSB
   bool shutdown_m   : 1;
