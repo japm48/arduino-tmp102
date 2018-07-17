@@ -7,7 +7,7 @@
 #######################################
 
 tmp102	KEYWORD1
-Tmp102ConfFormat KEYWORD1
+Tmp102ConfFormat	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
